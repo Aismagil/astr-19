@@ -6,16 +6,16 @@
 #computer to print
 #"Hello World!"
 def PrintHelloWorld():
-	print("Hello World!")
+    print("Hello World!")
 
 
 #This defines our main()
 #function for our program
 def main():
-	PrintHelloWorld()
+    PrintHelloWorld()
 
 
 #When we run the program,
 #this executes first
-if __name__=="main":
+if __name__=="__main__":
     main()
